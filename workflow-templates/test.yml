@@ -2,7 +2,8 @@ name: Octo Organization CI
 
 on:
   push:
-    branches: [ test-branch ]
+    branches:
+      - $default-branch
   pull_request:
     branches: [ test-branch ]
 
